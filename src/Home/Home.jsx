@@ -199,10 +199,7 @@ function Home() {
                             href={`#product_${value._id}`}
                             data-toggle="modal"
                           >
-                            <img
-                              className="img-fluid"
-                              src={value.imageURL[0]}
-                            />
+                            <img className="img-fluid" src={value.imageURL[0]} alt=""/>
                           </a>
                         </div>
                         <h6>
