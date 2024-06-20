@@ -202,7 +202,6 @@ function Home() {
                             <img
                               className="img-fluid"
                               src={value.imageURL[0]}
-                              alt="image"
                             />
                           </a>
                         </div>
